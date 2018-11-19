@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88817563219DBA4300739A4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88817562219DBA4300739A4C /* AppDelegate.swift */; };
+		88817565219DBA4300739A4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88817564219DBA4300739A4C /* ViewController.swift */; };
+		88817568219DBA4300739A4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88817566219DBA4300739A4C /* Main.storyboard */; };
+		8881756A219DBA4300739A4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88817569219DBA4300739A4C /* Assets.xcassets */; };
+		8881756D219DBA4300739A4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8881756B219DBA4300739A4C /* LaunchScreen.storyboard */; };
+		88817578219DBA4300739A4C /* NiyazPlaneGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88817577219DBA4300739A4C /* NiyazPlaneGameTests.swift */; };
+		88817583219DBA4300739A4C /* NiyazPlaneGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88817582219DBA4300739A4C /* NiyazPlaneGameUITests.swift */; };
+		88817593219DBE3400739A4C /* NiyazPlaneGame in Resources */ = {isa = PBXBuildFile; fileRef = 88817592219DBE3400739A4C /* NiyazPlaneGame */; };
+		88817595219DC29000739A4C /* moving road.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88817594219DC29000739A4C /* moving road.swift */; };
+		88F6AD6B21A2E54E00AD35F4 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F6AD6A21A2E54E00AD35F4 /* Plane.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88817574219DBA4300739A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88817557219DBA4300739A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8881755E219DBA4300739A4C;
+			remoteInfo = NiyazPlaneGame;
+		};
+		8881757F219DBA4300739A4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88817557219DBA4300739A4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8881755E219DBA4300739A4C;
+			remoteInfo = NiyazPlaneGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8881755F219DBA4300739A4C /* NiyazPlaneGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiyazPlaneGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88817562219DBA4300739A4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88817564219DBA4300739A4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88817567219DBA4300739A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88817569219DBA4300739A4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8881756C219DBA4300739A4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8881756E219DBA4300739A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88817573219DBA4300739A4C /* NiyazPlaneGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiyazPlaneGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88817577219DBA4300739A4C /* NiyazPlaneGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiyazPlaneGameTests.swift; sourceTree = "<group>"; };
+		88817579219DBA4300739A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8881757E219DBA4300739A4C /* NiyazPlaneGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NiyazPlaneGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88817582219DBA4300739A4C /* NiyazPlaneGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiyazPlaneGameUITests.swift; sourceTree = "<group>"; };
+		88817584219DBA4300739A4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88817592219DBE3400739A4C /* NiyazPlaneGame */ = {isa = PBXFileReference; lastKnownFileType = folder; path = NiyazPlaneGame; sourceTree = SOURCE_ROOT; };
+		88817594219DC29000739A4C /* moving road.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "moving road.swift"; sourceTree = "<group>"; };
+		88F6AD6A21A2E54E00AD35F4 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8881755C219DBA4300739A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88817570219DBA4300739A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8881757B219DBA4300739A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88817556219DBA4300739A4C = {
+			isa = PBXGroup;
+			children = (
+				88817561219DBA4300739A4C /* NiyazPlaneGame */,
+				88817576219DBA4300739A4C /* NiyazPlaneGameTests */,
+				88817581219DBA4300739A4C /* NiyazPlaneGameUITests */,
+				88817560219DBA4300739A4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88817560219DBA4300739A4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8881755F219DBA4300739A4C /* NiyazPlaneGame.app */,
+				88817573219DBA4300739A4C /* NiyazPlaneGameTests.xctest */,
+				8881757E219DBA4300739A4C /* NiyazPlaneGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88817561219DBA4300739A4C /* NiyazPlaneGame */ = {
+			isa = PBXGroup;
+			children = (
+				88817562219DBA4300739A4C /* AppDelegate.swift */,
+				88817564219DBA4300739A4C /* ViewController.swift */,
+				88817594219DC29000739A4C /* moving road.swift */,
+				88F6AD6A21A2E54E00AD35F4 /* Plane.swift */,
+				88817566219DBA4300739A4C /* Main.storyboard */,
+				88817592219DBE3400739A4C /* NiyazPlaneGame */,
+				88817569219DBA4300739A4C /* Assets.xcassets */,
+				8881756B219DBA4300739A4C /* LaunchScreen.storyboard */,
+				8881756E219DBA4300739A4C /* Info.plist */,
+			);
+			path = NiyazPlaneGame;
+			sourceTree = "<group>";
+		};
+		88817576219DBA4300739A4C /* NiyazPlaneGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				88817577219DBA4300739A4C /* NiyazPlaneGameTests.swift */,
+				88817579219DBA4300739A4C /* Info.plist */,
+			);
+			path = NiyazPlaneGameTests;
+			sourceTree = "<group>";
+		};
+		88817581219DBA4300739A4C /* NiyazPlaneGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88817582219DBA4300739A4C /* NiyazPlaneGameUITests.swift */,
+				88817584219DBA4300739A4C /* Info.plist */,
+			);
+			path = NiyazPlaneGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8881755E219DBA4300739A4C /* NiyazPlaneGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88817587219DBA4300739A4C /* Build configuration list for PBXNativeTarget "NiyazPlaneGame" */;
+			buildPhases = (
+				8881755B219DBA4300739A4C /* Sources */,
+				8881755C219DBA4300739A4C /* Frameworks */,
+				8881755D219DBA4300739A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiyazPlaneGame;
+			productName = NiyazPlaneGame;
+			productReference = 8881755F219DBA4300739A4C /* NiyazPlaneGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88817572219DBA4300739A4C /* NiyazPlaneGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8881758A219DBA4300739A4C /* Build configuration list for PBXNativeTarget "NiyazPlaneGameTests" */;
+			buildPhases = (
+				8881756F219DBA4300739A4C /* Sources */,
+				88817570219DBA4300739A4C /* Frameworks */,
+				88817571219DBA4300739A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88817575219DBA4300739A4C /* PBXTargetDependency */,
+			);
+			name = NiyazPlaneGameTests;
+			productName = NiyazPlaneGameTests;
+			productReference = 88817573219DBA4300739A4C /* NiyazPlaneGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8881757D219DBA4300739A4C /* NiyazPlaneGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8881758D219DBA4300739A4C /* Build configuration list for PBXNativeTarget "NiyazPlaneGameUITests" */;
+			buildPhases = (
+				8881757A219DBA4300739A4C /* Sources */,
+				8881757B219DBA4300739A4C /* Frameworks */,
+				8881757C219DBA4300739A4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88817580219DBA4300739A4C /* PBXTargetDependency */,
+			);
+			name = NiyazPlaneGameUITests;
+			productName = NiyazPlaneGameUITests;
+			productReference = 8881757E219DBA4300739A4C /* NiyazPlaneGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88817557219DBA4300739A4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CSStestuser;
+				TargetAttributes = {
+					8881755E219DBA4300739A4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					88817572219DBA4300739A4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8881755E219DBA4300739A4C;
+					};
+					8881757D219DBA4300739A4C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8881755E219DBA4300739A4C;
+					};
+				};
+			};
+			buildConfigurationList = 8881755A219DBA4300739A4C /* Build configuration list for PBXProject "NiyazPlaneGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88817556219DBA4300739A4C;
+			productRefGroup = 88817560219DBA4300739A4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8881755E219DBA4300739A4C /* NiyazPlaneGame */,
+				88817572219DBA4300739A4C /* NiyazPlaneGameTests */,
+				8881757D219DBA4300739A4C /* NiyazPlaneGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8881755D219DBA4300739A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8881756D219DBA4300739A4C /* LaunchScreen.storyboard in Resources */,
+				8881756A219DBA4300739A4C /* Assets.xcassets in Resources */,
+				88817568219DBA4300739A4C /* Main.storyboard in Resources */,
+				88817593219DBE3400739A4C /* NiyazPlaneGame in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88817571219DBA4300739A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8881757C219DBA4300739A4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8881755B219DBA4300739A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88817565219DBA4300739A4C /* ViewController.swift in Sources */,
+				88817563219DBA4300739A4C /* AppDelegate.swift in Sources */,
+				88F6AD6B21A2E54E00AD35F4 /* Plane.swift in Sources */,
+				88817595219DC29000739A4C /* moving road.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8881756F219DBA4300739A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88817578219DBA4300739A4C /* NiyazPlaneGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8881757A219DBA4300739A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88817583219DBA4300739A4C /* NiyazPlaneGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88817575219DBA4300739A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8881755E219DBA4300739A4C /* NiyazPlaneGame */;
+			targetProxy = 88817574219DBA4300739A4C /* PBXContainerItemProxy */;
+		};
+		88817580219DBA4300739A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8881755E219DBA4300739A4C /* NiyazPlaneGame */;
+			targetProxy = 8881757F219DBA4300739A4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88817566219DBA4300739A4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88817567219DBA4300739A4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8881756B219DBA4300739A4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8881756C219DBA4300739A4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88817585219DBA4300739A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88817586219DBA4300739A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88817588219DBA4300739A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NiyazPlaneGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NiyazPlaneGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		88817589219DBA4300739A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NiyazPlaneGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NiyazPlaneGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8881758B219DBA4300739A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NiyazPlaneGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NiyazPlaneGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiyazPlaneGame.app/NiyazPlaneGame";
+			};
+			name = Debug;
+		};
+		8881758C219DBA4300739A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NiyazPlaneGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NiyazPlaneGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NiyazPlaneGame.app/NiyazPlaneGame";
+			};
+			name = Release;
+		};
+		8881758E219DBA4300739A4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NiyazPlaneGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NiyazPlaneGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NiyazPlaneGame;
+			};
+			name = Debug;
+		};
+		8881758F219DBA4300739A4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NiyazPlaneGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NiyazPlaneGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NiyazPlaneGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8881755A219DBA4300739A4C /* Build configuration list for PBXProject "NiyazPlaneGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88817585219DBA4300739A4C /* Debug */,
+				88817586219DBA4300739A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88817587219DBA4300739A4C /* Build configuration list for PBXNativeTarget "NiyazPlaneGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88817588219DBA4300739A4C /* Debug */,
+				88817589219DBA4300739A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8881758A219DBA4300739A4C /* Build configuration list for PBXNativeTarget "NiyazPlaneGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8881758B219DBA4300739A4C /* Debug */,
+				8881758C219DBA4300739A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8881758D219DBA4300739A4C /* Build configuration list for PBXNativeTarget "NiyazPlaneGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8881758E219DBA4300739A4C /* Debug */,
+				8881758F219DBA4300739A4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88817557219DBA4300739A4C /* Project object */;
+}
