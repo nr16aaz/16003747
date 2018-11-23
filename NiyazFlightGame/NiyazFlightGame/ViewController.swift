@@ -8,7 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+protocol movement {
+    func changeMove()
+}
+
+class ViewController: UIViewController, movement {
 
     @IBOutlet weak var road: UIImageView!
     @IBOutlet weak var aircraft: UIImageView!

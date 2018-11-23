@@ -9,6 +9,12 @@
 import UIKit
 
 class DragPlane: UIImageView {
+    
+    var startPoint: CGPoint
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        startPoint = (touches.first?.location(in: self))!
+    }
 
     /*
     // Only override draw() if you perform custom drawing.
