@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="plane" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="clr-NU-xtU">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JHW-qn-bK5">
+                                <rect key="frame" x="20" y="157" width="98" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="6zp-jf-pvM"/>
+                                    <constraint firstAttribute="width" constant="98" id="LPU-h0-Km6"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="clr-NU-xtU" secondAttribute="trailing" id="Q45-3B-8t8"/>
+                            <constraint firstItem="clr-NU-xtU" firstAttribute="leading" secondItem="JHW-qn-bK5" secondAttribute="trailing" constant="-118" id="WBR-KP-YbB"/>
+                            <constraint firstItem="JHW-qn-bK5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ah1-Pz-QDL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="clr-NU-xtU" secondAttribute="bottom" id="cYz-AG-nda"/>
+                            <constraint firstItem="clr-NU-xtU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dfX-zg-BFv"/>
+                            <constraint firstItem="clr-NU-xtU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wxY-CY-4xJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageHolder" destination="clr-NU-xtU" id="1J0-KV-TbC"/>
+                        <outlet property="planeHolder" destination="JHW-qn-bK5" id="rNG-Am-qg8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.48275862068968" y="133.59999999999999"/>
+        </scene>
+    </scenes>
+</document>
