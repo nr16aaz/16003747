@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="plane" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="clj-sS-bHy"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bjl-Xv-n7L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="clr-NU-xtU">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBa-7e-RxL">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="293"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="g2Q-ZC-KMf">
+                                <rect key="frame" x="613" y="8" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="VxL-id-Exq">
+                                <rect key="frame" x="633" y="58" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="gH0-iB-4zM" userLabel="coin1">
+                                <rect key="frame" x="613" y="125" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="uTD-pU-04O" userLabel="coin2">
+                                <rect key="frame" x="316" y="166" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="eLa-jA-GHP" userLabel="coin3">
+                                <rect key="frame" x="633" y="166" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="FZ6-eX-Fhl" userLabel="coin4">
+                                <rect key="frame" x="613" y="216" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="dMF-Yg-dZN" userLabel="coin5">
+                                <rect key="frame" x="571" y="251" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="PIh-jE-ofx" userLabel="coin6">
+                                <rect key="frame" x="613" y="293" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="2Sw-aU-c63" userLabel="coin7">
+                                <rect key="frame" x="503" y="313" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="7CA-g9-Bmn" userLabel="coin8">
+                                <rect key="frame" x="571" y="175" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="cks-2Z-dHC" userLabel="coin9">
+                                <rect key="frame" x="563" y="115" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="DAP-A2-SFi" userLabel="coin10">
+                                <rect key="frame" x="542" y="45" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="8Sy-E2-ZxE" userLabel="coin11">
+                                <rect key="frame" x="529" y="157" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="n58-Sm-5Xp" userLabel="coin12">
+                                <rect key="frame" x="492" y="20" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="coin" translatesAutoresizingMaskIntoConstraints="NO" id="i4j-52-d4F" userLabel="coin13">
+                                <rect key="frame" x="521" y="95" width="34" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="bqP-1u-oIi" userLabel="bird">
+                                <rect key="frame" x="329" y="20" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="ONG-Zc-PQK">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="Nua-9I-USo" userLabel="bird2">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="GRu-k2-UFO" userLabel="bird3">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="T99-qR-0nM" userLabel="bird4">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="wRY-be-sVj" userLabel="bird5">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="KUU-JA-NZx" userLabel="bird6">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="407-ng-Sc3" userLabel="bird7">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="HgB-LD-bd1" userLabel="bird8">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="5df-3Y-qzW" userLabel="bird9">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="CW9-l2-LHt" userLabel="bird10">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="uPr-aY-FaX" userLabel="bird11">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="Qj1-aS-6MI" userLabel="bird12">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="UrF-6I-gXN" userLabel="bird13">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="bird1" translatesAutoresizingMaskIntoConstraints="NO" id="bOk-i6-7vi" userLabel="bird14">
+                                <rect key="frame" x="298" y="147" width="71" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMo-vG-P6o">
+                                <rect key="frame" x="233.5" y="137.5" width="200" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="OJB-j3-3g0"/>
+                                    <constraint firstAttribute="width" constant="200" id="msB-3a-FQl"/>
+                                </constraints>
+                                <state key="normal" image="replay"/>
+                                <connections>
+                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bE1-O3-KkW"/>
+                                </connections>
+                            </button>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plane1" translatesAutoresizingMaskIntoConstraints="NO" id="CbL-L5-sJc" customClass="PlaneViewController" customModule="plane" customModuleProvider="target">
+                                <rect key="frame" x="20" y="157.5" width="100" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1IH-7u-86m"/>
+                                    <constraint firstAttribute="height" constant="60" id="lEE-eF-q67"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CbL-L5-sJc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0H6-Kx-11V"/>
+                            <constraint firstItem="cBa-7e-RxL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8oy-jm-dPQ"/>
+                            <constraint firstItem="OMo-vG-P6o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EWk-PB-HvT"/>
+                            <constraint firstItem="cBa-7e-RxL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="EyX-BE-Ypt"/>
+                            <constraint firstItem="cBa-7e-RxL" firstAttribute="top" secondItem="clj-sS-bHy" secondAttribute="bottom" id="KnP-Jq-YS9"/>
+                            <constraint firstAttribute="trailing" secondItem="clr-NU-xtU" secondAttribute="trailing" id="Q45-3B-8t8"/>
+                            <constraint firstItem="OMo-vG-P6o" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q9f-6i-a1X"/>
+                            <constraint firstItem="clr-NU-xtU" firstAttribute="top" secondItem="cBa-7e-RxL" secondAttribute="bottom" constant="-293" id="Rcf-ae-LGc"/>
+                            <constraint firstItem="cBa-7e-RxL" firstAttribute="leading" secondItem="CbL-L5-sJc" secondAttribute="trailing" constant="-120" id="Tpo-cu-Buc"/>
+                            <constraint firstItem="Bjl-Xv-n7L" firstAttribute="top" secondItem="clr-NU-xtU" secondAttribute="bottom" id="cYz-AG-nda"/>
+                            <constraint firstItem="clr-NU-xtU" firstAttribute="top" secondItem="clj-sS-bHy" secondAttribute="bottom" id="dfX-zg-BFv"/>
+                            <constraint firstItem="cBa-7e-RxL" firstAttribute="top" secondItem="clj-sS-bHy" secondAttribute="bottom" id="rmO-pe-I0Y"/>
+                            <constraint firstItem="clr-NU-xtU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wxY-CY-4xJ"/>
+                            <constraint firstAttribute="trailing" secondItem="cBa-7e-RxL" secondAttribute="trailing" id="z4J-qN-Kxc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bird" destination="bqP-1u-oIi" id="Jkd-sX-fMd"/>
+                        <outlet property="bird1" destination="ONG-Zc-PQK" id="fnz-NX-o8K"/>
+                        <outlet property="bird10" destination="CW9-l2-LHt" id="Pjr-k7-tHs"/>
+                        <outlet property="bird11" destination="uPr-aY-FaX" id="ZLF-Kt-3z7"/>
+                        <outlet property="bird12" destination="Qj1-aS-6MI" id="mR1-mc-Kbx"/>
+                        <outlet property="bird13" destination="UrF-6I-gXN" id="umG-fh-zFc"/>
+                        <outlet property="bird14" destination="bOk-i6-7vi" id="ZdZ-Le-0Bz"/>
+                        <outlet property="bird2" destination="Nua-9I-USo" id="1jI-C7-k2a"/>
+                        <outlet property="bird3" destination="GRu-k2-UFO" id="lm4-0P-Bi0"/>
+                        <outlet property="bird4" destination="T99-qR-0nM" id="6XU-ib-Sxj"/>
+                        <outlet property="bird5" destination="wRY-be-sVj" id="CXJ-hJ-agf"/>
+                        <outlet property="bird6" destination="KUU-JA-NZx" id="2oR-e4-k7y"/>
+                        <outlet property="bird7" destination="407-ng-Sc3" id="T1j-N6-QW6"/>
+                        <outlet property="bird8" destination="HgB-LD-bd1" id="Rs2-Hk-hnl"/>
+                        <outlet property="bird9" destination="5df-3Y-qzW" id="VxK-Qn-EOJ"/>
+                        <outlet property="coin" destination="VxL-id-Exq" id="KWC-Ws-vTj"/>
+                        <outlet property="coin1" destination="gH0-iB-4zM" id="zs6-qz-0I6"/>
+                        <outlet property="coin10" destination="DAP-A2-SFi" id="ai6-7b-Ffu"/>
+                        <outlet property="coin11" destination="8Sy-E2-ZxE" id="JcN-fz-zgv"/>
+                        <outlet property="coin12" destination="n58-Sm-5Xp" id="9Nh-cX-yKO"/>
+                        <outlet property="coin13" destination="i4j-52-d4F" id="Ztt-70-u7F"/>
+                        <outlet property="coin2" destination="uTD-pU-04O" id="QPd-X6-J7Z"/>
+                        <outlet property="coin3" destination="eLa-jA-GHP" id="h6h-yP-Whr"/>
+                        <outlet property="coin4" destination="FZ6-eX-Fhl" id="JbP-Vd-ecw"/>
+                        <outlet property="coin5" destination="dMF-Yg-dZN" id="aCl-8V-hhp"/>
+                        <outlet property="coin6" destination="PIh-jE-ofx" id="gqV-wr-cdq"/>
+                        <outlet property="coin7" destination="2Sw-aU-c63" id="hi5-Bq-ZAW"/>
+                        <outlet property="coin8" destination="7CA-g9-Bmn" id="NdH-1m-zeV"/>
+                        <outlet property="coin9" destination="cks-2Z-dHC" id="lH4-zo-U4O"/>
+                        <outlet property="coins" destination="g2Q-ZC-KMf" id="MYP-RG-GQf"/>
+                        <outlet property="imageHolder" destination="clr-NU-xtU" id="1J0-KV-TbC"/>
+                        <outlet property="planeHolder" destination="CbL-L5-sJc" id="Xck-Br-YLR"/>
+                        <outlet property="play" destination="OMo-vG-P6o" id="Oso-DI-bBE"/>
+                        <outlet property="treesHolder" destination="cBa-7e-RxL" id="zqw-BZ-PhS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.48275862068968" y="133.59999999999999"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bird1" width="312" height="312"/>
+        <image name="coin" width="128" height="128"/>
+        <image name="plane1" width="126" height="74"/>
+        <image name="replay" width="470" height="190"/>
+    </resources>
+</document>
